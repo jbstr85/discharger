@@ -1,0 +1,24 @@
+{
+	
+	"name" : "jbstr/discharger",
+	"license" : "MIT",
+	"description" : "Automatic dependency resolving",
+	"keywords" : ["discharger","dependency injection","object resolving","inversion of control"],
+	"authors" : [
+			{"name" : "Jakub Bystroński",
+			 "email" : "jbstr85@gmail.com"
+			}
+		    ],
+	
+	"require":{},
+	"require-dev":{
+		"phpunit/phpunit": "*"
+	},
+	"autoload":{
+		"psr-4":{
+			"Discharger\\" : "src/"
+			}
+		   }
+
+
+}
